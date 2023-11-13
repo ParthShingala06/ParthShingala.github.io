@@ -1,5 +1,8 @@
 //About me hover over profile picture effects
 
+var i = {};
+i.am = 'a Software Engineer';
+
 let profilePic = document.getElementById('profileGreen');
 let profileBorder = document.getElementById('boxborder');
 
