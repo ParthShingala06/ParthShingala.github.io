@@ -74,6 +74,13 @@ h1 {
     font-size: 80px;
     margin: 0px;
 }
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
 
 .med-heading {
     font-size: 40px;
@@ -247,6 +254,16 @@ section {
     font-weight: 600;
     color: var(--lightest-slate);
     line-height: 1.1;
+}
+.tech-icon {
+    font-size: 50px;
+    margin: 1% 0.75%;
+}
+
+.company-icon {
+    height: 30px;
+    margin: 0.1% 5%;
+    opacity: 0.5;
 }
 
 .numbered-heading::before {
