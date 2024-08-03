@@ -75,7 +75,7 @@ h1 {
     margin: 0px;
 }
 .center-content {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -307,7 +307,7 @@ section {
 
 /* Intro */
 header {
-    margin: 0 auto;
+    margin: 4% 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -316,7 +316,8 @@ header {
 }
 
 #intro-text {
-    max-width: 600px;
+    text-align: center;
+    padding: 0 20%;
 }
 
 @media screen and (max-width: 425px) {
